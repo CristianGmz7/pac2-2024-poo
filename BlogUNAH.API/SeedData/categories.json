@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "0590f142-a42e-42af-86ca-f9abf3ae7165",
+    "Name": "JavaScript",
+    "Description": "El lenguaje mas entretenido del mundo mundial"
+  },
+  {
+    "Id": "7e64d5b6-4659-48d7-a734-cf742eb69286",
+    "Name": "IA",
+    "Description": "Tecnologia de Moda 2024"
+  },
+  {
+    "Id": "5b9f1970-9e68-4012-85b9-4385771e7082",
+    "Name": "NodeJS",
+    "Description": "Entorno de ejecucion de JavaScript"
+  },
+  {
+    "Id": "3d63a6a7-c780-4c49-a903-3f131b43a32e",
+    "Name": "Java",
+    "Description": "Lenguaje de programacion empresarial"
+  },
+  {
+    "Id": "3bb7ca15-d8c8-44af-b34f-5b0d8f5b5a9d",
+    "Name": "UNAH-CUROC",
+    "Description": "La mera mazacuata"
+  },
+  {
+    "Id": "3b5eb083-4689-448c-964a-d54acb2907d1",
+    "Name": "UNAH / Editado",
+    "Description": "Articulos relacionados a la universidad "
+  }
+]

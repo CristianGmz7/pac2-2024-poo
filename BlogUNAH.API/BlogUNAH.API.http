@@ -1,0 +1,10 @@
+@Adress = https://localhost:7019
+
+GET {{Adress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Adress}}/api/categories
+
+###
