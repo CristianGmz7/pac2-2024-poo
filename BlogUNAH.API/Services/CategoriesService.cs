@@ -54,7 +54,7 @@ public class CategoriesService : ICategoriesService
         //pasar de Category Dto a Category Entity
         //Esto es debido a que el metodo Write debe recibir lista como una entidad y no como
         //un dto
-        var categories = categoriesDtos.Select(c => new Category
+        var categories = categoriesDtos.Select(c => new CategoryEntity
         {
             Id = c.Id,
             Name = c.Name,
@@ -104,7 +104,7 @@ public class CategoriesService : ICategoriesService
         //pasar de Category Dto a Category Entity
         //Explicacion breve: convertir el dto que el usuario ingreso a una entidad que 
         //necesita la base de datos
-        var categories = categoriesDto.Select(c => new Category
+        var categories = categoriesDto.Select(c => new CategoryEntity
         {
             Id = c.Id,
             Name = c.Name,
@@ -129,7 +129,7 @@ public class CategoriesService : ICategoriesService
         categoriesDto.Remove(categoryToDelete);
 
         //pasar de Category Dto a Category Entity
-        var categories = categoriesDto.Select(c => new Category
+        var categories = categoriesDto.Select(c => new CategoryEntity
         {
             Id = c.Id,
             Name = c.Name,
@@ -151,7 +151,7 @@ public class CategoriesService : ICategoriesService
 
         //Los archivos en la base de datos se guardan como la clase que se encuentra la
         //entidad, en este caso la entidad es Category
-        var categories = JsonConvert.DeserializeObject<List<Category>>(json);
+        var categories = JsonConvert.DeserializeObject<List<CategoryEntity>>(json);
 
         //Convertir Entity (lo que esta en base de datos) a Dto (lo que necesita el cliente)
         //Al final se pone .ToList() porque el metodo .Select retorna un IEnumerable y no una lista
@@ -167,7 +167,7 @@ public class CategoriesService : ICategoriesService
 
     //El metodo Write no retorna nada pero debe escribir los archivos que se van a escribir
     //en la base de datos como la entidad y no como el dto
-    private async Task WriteCategoriesToFileAsync(List<Category> categories)
+    private async Task WriteCategoriesToFileAsync(List<CategoryEntity> categories)
     {
         var json = JsonConvert.SerializeObject(categories, Formatting.Indented);
 

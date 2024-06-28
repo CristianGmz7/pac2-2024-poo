@@ -1,12 +1,15 @@
 ﻿//Ing Pale
+using BlogUNAH.API.Database;
 using BlogUNAH.API.Services;
 using BlogUNAH.API.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlogUNAH.API;
 
 public class Startup
 {
     private IConfiguration Configuration { get; }
+    //Esta variable accede al appseseting.Development Json y se pasa en services.AddDbContext
 
     public Startup( IConfiguration configuration )
     {
@@ -19,6 +22,10 @@ public class Startup
         services.AddControllers();
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen();
+
+        //Add DbContext (comienza configuracion de base de datos)
+        services.AddDbContext<BlogUNAHContext>(options => 
+        options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
         // Add custom services
         services.AddTransient<ICategoriesService, CategoriesService>();

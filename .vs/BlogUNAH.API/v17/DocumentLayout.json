@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Tareas UNAH\\II PAC 2024\\POO\\Unidad I\\APIRest\\BlogUNAH.API\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{70DFBF31-507A-4003-8C7D-8BB6E6B63327}|BlogUNAH.API\\BlogUNAH.API.csproj|d:\\tareas unah\\ii pac 2024\\poo\\unidad i\\apirest\\blogunah.api\\blogunah.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70DFBF31-507A-4003-8C7D-8BB6E6B63327}|BlogUNAH.API\\BlogUNAH.API.csproj|solutionrelative:blogunah.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,23 +9,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "D:\\Tareas UNAH\\II PAC 2024\\POO\\Unidad I\\APIRest\\BlogUNAH.API\\BlogUNAH.API\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "BlogUNAH.API\\Controllers\\CategoriesController.cs",
-              "ToolTip": "D:\\Tareas UNAH\\II PAC 2024\\POO\\Unidad I\\APIRest\\BlogUNAH.API\\BlogUNAH.API\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "BlogUNAH.API\\Controllers\\CategoriesController.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T06:19:37.988Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
